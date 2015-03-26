@@ -1,0 +1,70 @@
+﻿*{
+	text-align: center;
+}
+
+body{
+	text-align: center;
+	padding-top: 30px;
+}
+
+#container{
+	text-align: center;
+}
+
+table{
+	border-spacing: 0px;
+}
+
+#bookListHead{
+	background-color: yellow;
+}
+
+td{
+	width: 120px;
+	height: 30px;
+	border: 1px solid #CCCCCC;
+	margin: 0px;
+}
+
+#bookFormContainer{
+	margin-top: 50px;
+	text-align: center;
+}
+
+#bookFormContainer div{
+	margin: 0px auto;
+	width: 620px;
+	border: 1px solid #CCCCCC;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#bottomInfo, #backInfo{
+	margin: 50px auto;
+	text-align: center;
+	width: 620px;
+	border: 1px solid #CCCCCC;
+	line-height: 50px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+#bottomInfo:hover, #backInfo:hover{
+	border-width: 2px;
+}
+
+#infoAdv{
+	width: 580px;
+	border: 1px solid #CCCCCC;
+	margin: 0px auto;
+	text-align: left;
+	padding: 20px 20px 10px 20px;
+	line-height: 25px;
+	font-weight: bold;
+}
+
+#infoAdv div{
+	text-align: left;
+	padding-bottom: 5px;
+	word-wrap:break-word;
+}

@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+	<title>jsPuerMVCDemo</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="language" content="en" />
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+
+	<link rel="stylesheet" href="css/style.css" />
+
+	<!-- jQuery and jQuery UI library dependencies -->
+	<script type="text/javascript" src="lib/jquery-1.6.2.js"></script>
+
+	<!-- Objs library -->
+	<script type="text/javascript" src="lib/objs-2.1.1.js"></script>
+
+	<!-- PureMVC framework for JavaScript based on Objs -->
+	<script type="text/javascript" src="lib/puremvc-objs-2.0.js"></script>
+
+
+	<script type="text/javascript" src="con/NotificationNames.js"></script>
+	<script type="text/javascript" src="con/MediatorNames.js"></script>
+	<script type="text/javascript" src="con/ProxyNames.js"></script>
+
+	<script type="text/javascript" src="controller/StartupCommand.js"></script>
+	<script type="text/javascript" src="controller/PrepModelCommand.js"></script>
+	<script type="text/javascript" src="controller/PrepViewCommand.js"></script>
+	<script type="text/javascript" src="controller/InitDataCommand.js"></script>
+
+	<script type="text/javascript" src="model/BookProxy.js"></script>
+
+	<script type="text/javascript" src="model/VO/BookVO.js"></script>
+
+	<script type="text/javascript" src="view/MainMediator.js"></script>
+	<script type="text/javascript" src="view/InfoMediator.js"></script>
+
+	<script type="text/javascript" src="view/components/UiComponent.js"></script>
+	<script type="text/javascript" src="view/components/BookList.js"></script>
+	<script type="text/javascript" src="view/components/BookForm.js"></script>
+
+	<script type="text/javascript" src="GameFacade.js"></script>
+
+
+	<script type="text/javascript">
+	$(document).ready
+	(
+		function()
+		{
+			var gameFacade = GameFacade.getInstance();
+			gameFacade.startup();
+		}
+	);
+	</script>
+
+</head>
+
+<body>
+
+<div id="container"></div>
+
+</body>
+</html>
