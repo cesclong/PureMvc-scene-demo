@@ -29,7 +29,7 @@ var BookForm = Objs("demo.view.components.BookForm",
 		// 定义各数据对应元素引用，方便后续调用
 		this.$name = $el.find("#bookName");
 		this.$author = $el.find("#bookAuthor");
-		this.$country = $el.find("#country");
+		this.$country = $el.find("#bookCountry");
 		this.$price = $el.find("#bookPrice");
 		this.$sub = $el.find("#bookFormSub");
 
