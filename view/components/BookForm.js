@@ -24,7 +24,7 @@ var BookForm = Objs("demo.view.components.BookForm",
 	 */
 	initializeContainer: function()
 	{
-		var $el = this.$el = $("<div id='bookFormContainer'><div>name: <input id='bookName' /></div><div>author: <input id='bookAuthor' /></div><div id='bookCountry'>country: <input /></div><div id='bookPrice'>price: <input /></div><div><input id='bookFormSub' type='button' value='submit' /></div></div>");
+		var $el = this.$el = $("<div id='bookFormContainer'><div>name: <input id='bookName' /></div><div>author: <input id='bookAuthor' /></div><div>country: <input id='bookCountry' /></div><div>price: <input id='bookPrice' /></div><div><input id='bookFormSub' type='button' value='submit' /></div></div>");
 
 		// 定义各数据对应元素引用，方便后续调用
 		this.$name = $el.find("#bookName");
